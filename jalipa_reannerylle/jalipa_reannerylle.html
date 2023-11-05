@@ -80,7 +80,7 @@
             <li>To be financially stable.</li>
         </ol>
 
-        <div id="comment-sec">
+        <div id="comment_sec">
             <h2>Comments</h2>
             
             <p>Drei: Wow nice skills! Edge it further!</p>
@@ -91,20 +91,17 @@
             <p>Adnan : Yes Krysten so Grappeee talaga</p>
             <p>Drei: Wow grapes hahahahaha!</p>
             
-        </div>
-       
-            <form id="comment-input">
-                <h3><label for="name">Name:</label></h3>
-                <input type="text" id="name">
-    
-                <h3><label for="comment">Comment:</label></h3>
-                <textarea id="comment"></textarea>
-                    
-                <button type="submit" 
-                id="comment-button" 
-                disabled>Comment</button>
-            </form>
-
+        </div>       
+        <form id="comment_input">
+            <h3><label for="name">Name:</label></h3>
+            <input type="text" id="name">
+        
+            <h3><label for="comment">Comment:</label></h3>
+            <textarea id="comment"></textarea>
+        
+            <button type="button" id="comment_button" 
+            disabled onclick="addComment()">Comment</button> 
+        </form>
     </div>
 
     <div id="gallery">
