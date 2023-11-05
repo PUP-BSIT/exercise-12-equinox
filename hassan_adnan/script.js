@@ -1,6 +1,6 @@
 let nameInput = document.getElementById("name");
 let commentInput = document.getElementById("comment");
-let commentButton = document.getElementById("comment-button");
+let commentButton = document.getElementById("comment_button");
 let commentsSection = document.querySelector(".team-comment");
    
 nameInput.addEventListener("input", toggleCommentButton);
